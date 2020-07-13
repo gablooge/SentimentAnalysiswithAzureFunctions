@@ -7,7 +7,7 @@ class RecognizeReceiptsFromURLSample(object):
         # This is your client - a one entry point to working with the resource
         form_recognizer_client = FormRecognizerClient(
             endpoint = "https://receiptformanalyzer.cognitiveservices.azure.com/",
-            credential=AzureKeyCredential("34ccadaa5121496784c1013e128ac620")
+            credential=AzureKeyCredential("KEY_CREDENTIAL")
         )
 
         # This is the receipt we will be recognizing - you can swap it with any other receipt url
